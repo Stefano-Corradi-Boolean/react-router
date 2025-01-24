@@ -11,6 +11,12 @@ const MainNav = () => {
           <NavLink to="/chi-siamo" className="nav-link" >Chi Siamo</NavLink>
         </li>
         <li className="nav-item">
+          <NavLink to="/elenco-pizze" className="nav-link" >Le nostre pizze</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/nuova-pizza" className="nav-link" >Nuova pizza</NavLink>
+        </li>
+        <li className="nav-item">
           <NavLink to="/contatti" className="nav-link" >Contatti</NavLink>
         </li>
       </ul>
